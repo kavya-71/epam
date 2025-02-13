@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float Layout Example</title>
+    <style>
+        .container {
+            width: 600px;
+            margin: auto;
+            border: 2px solid black;
+            overflow: hidden;
+        }
+
+        .box {
+            width: 45%;
+            padding: 20px;
+            background-color: lightblue;
+            margin: 10px;
+        }
+
+        .left {
+            float: left;
+        }
+
+        .right {
+            float: right;
+        }
+
+        .footer {
+            background-color: lightgray;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box left">Left Box</div>
+        <div class="box right">Right Box</div>
+        <div class="footer">Footer Section</div>
+    </div>
+
+</body>
+</html>
